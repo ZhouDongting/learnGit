@@ -1,9 +1,30 @@
-git commit¡¢git push¡¢git pull¡¢ git fetch¡¢git merge µÄº¬ÒåÓëÇø±ğ
+ï»¿git commitã€git pushã€git pullã€ git fetchã€git merge çš„å«ä¹‰ä¸åŒºåˆ«
 
- git commit£ºÊÇ½«±¾µØĞŞ¸Ä¹ıµÄÎÄ¼şÌá½»µ½±¾µØ¿âÖĞ£»
- git push£ºÊÇ½«±¾µØ¿âÖĞµÄ×îĞÂĞÅÏ¢·¢ËÍ¸øÔ¶³Ì¿â£»
- git pull£ºÊÇ´ÓÔ¶³Ì»ñÈ¡×îĞÂ°æ±¾µ½±¾µØ£¬²¢×Ô¶¯merge£»
- git fetch£ºÊÇ´ÓÔ¶³Ì»ñÈ¡×îĞÂ°æ±¾µ½±¾µØ£¬²»»á×Ô¶¯merge£»
- git merge£ºÊÇÓÃÓÚ´ÓÖ¸¶¨µÄcommit(s)ºÏ²¢µ½µ±Ç°·ÖÖ§£¬ÓÃÀ´ºÏ²¢Á½¸ö·ÖÖ§£»
-$ git merge -b  // Ö¸½« b ·ÖÖ§ºÏ²¢µ½µ±Ç°·ÖÖ§
-git pull Ïàµ±ÓÚ git fetch + git merge¡£
+ git commitï¼šæ˜¯å°†æœ¬åœ°ä¿®æ”¹è¿‡çš„æ–‡ä»¶æäº¤åˆ°æœ¬åœ°åº“ä¸­ï¼›
+ git pushï¼šæ˜¯å°†æœ¬åœ°åº“ä¸­çš„æœ€æ–°ä¿¡æ¯å‘é€ç»™è¿œç¨‹åº“ï¼›
+ git pullï¼šæ˜¯ä»è¿œç¨‹è·å–æœ€æ–°ç‰ˆæœ¬åˆ°æœ¬åœ°ï¼Œå¹¶è‡ªåŠ¨mergeï¼›
+ git fetchï¼šæ˜¯ä»è¿œç¨‹è·å–æœ€æ–°ç‰ˆæœ¬åˆ°æœ¬åœ°ï¼Œä¸ä¼šè‡ªåŠ¨mergeï¼›
+ git mergeï¼šæ˜¯ç”¨äºä»æŒ‡å®šçš„commit(s)åˆå¹¶åˆ°å½“å‰åˆ†æ”¯ï¼Œç”¨æ¥åˆå¹¶ä¸¤ä¸ªåˆ†æ”¯ï¼›
+$ git merge -b  // æŒ‡å°† b åˆ†æ”¯åˆå¹¶åˆ°å½“å‰åˆ†æ”¯
+git pull ç›¸å½“äº git fetch + git mergeã€‚
+
+Creating a new branch is quick.
+
+git checkout -b dev  // åˆ›å»ºå¹¶åˆ‡æ¢åˆ°dev åˆ†æ”¯ï¼Œç­‰ä»·ä¸å¦‚ä¸‹å‘½ä»¤ï¼š
+git branch dev
+git checkou dev
+
+æŸ¥çœ‹åˆ†æ”¯ï¼š
+git branch
+
+â¾¸é¦–å…ˆï¼Œæˆ‘ä»¬åˆ›å»ºdevåˆ†â½€æ”¯ï¼Œç„¶ååˆ‡æ¢åˆ°devåˆ†â½€æ”¯ï¼š
+$ git checkout -b dev
+Switched to a new branch 'dev'
+git checkoutå‘½ä»¤åŠ ä¸Š-bå‚æ•°è¡¨â½°ç¤ºåˆ›å»ºå¹¶åˆ‡æ¢ï¼Œç›¸å½“äºä»¥ä¸‹ä¸¤æ¡å‘½ä»¤ï¼š
+$ git branch dev
+$ git checkout dev
+Switched to branch 'dev'
+ç„¶åï¼Œâ½¤ç”¨git branchå‘½ä»¤æŸ¥çœ‹å½“å‰åˆ†â½€æ”¯ï¼š
+$ git branch
+* dev
+master
